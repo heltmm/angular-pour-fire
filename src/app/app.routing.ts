@@ -14,7 +14,7 @@ const appRoutes: Routes = [
     component: AdminComponent
   },
   {
-    path:'kegs/:id',
+    path:'kegs/:tap',
     component: KegDetailComponent
   }
 ];
