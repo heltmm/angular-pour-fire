@@ -2,6 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { KegDisplayComponent} from './keg-display/keg-display.component'
 import { AdminComponent} from './admin/admin.component'
+import { KegDetailComponent} from './keg-detail/keg-detail.component'
 
 const appRoutes: Routes = [
   {
@@ -11,6 +12,10 @@ const appRoutes: Routes = [
   {
     path:'admin',
     component: AdminComponent
+  },
+  {
+    path:'kegs/:id',
+    component: KegDetailComponent
   }
 ];
 
