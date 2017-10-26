@@ -1,0 +1,20 @@
+{
+  "name": "angular-pour-fire",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Mark Helt <heltmm@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}
