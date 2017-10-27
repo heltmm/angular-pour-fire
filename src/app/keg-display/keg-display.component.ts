@@ -18,9 +18,4 @@ export class KegDisplayComponent implements OnInit {
   ngOnInit() {
     this.kegs = this.kegService.getKegs();
   }
-  
-  goToDetailPage(clickedKeg: Keg) {
-     this.router.navigate(['kegs', clickedKeg.tap]);
-   }
-
 }

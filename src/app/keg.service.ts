@@ -10,4 +10,12 @@ export class KegService {
   getKegs(){
     return KEGS;
   }
+  getKegByTap(kegTap: number){
+    for(let i =0; i <= KEGS.length -1; i++){
+      if(KEGS[i].tap === kegTap){
+        debugger;
+        return KEGS[i];
+      }
+    }
+  }
 }

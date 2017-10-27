@@ -1,1 +1,6 @@
-<h2>This keg is on tap: {{kegTap}}</h2>
+
+<h1>{{kegToDisplay.brewery}} <span class="color">{{kegToDisplay.name}}</span><img  class='right' src="{{kegToDisplay.graphic}}" alt="keg status"></h1>
+<p>{{kegToDisplay.style}} <span class='right'>Tap: {{kegToDisplay.tap}}</span></p>
+<h4>{{kegToDisplay.origin}}   ABV {{kegToDisplay.abv}}% IBU {{kegToDisplay.ibu}}</h4>
+<p>${{kegToDisplay.price}}.00 {{kegToDisplay.servingSize}}oz</p>
+<h4>Keg left: {{kegToDisplay.kegVol}} oz</h4>
